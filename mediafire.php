@@ -1,12 +1,12 @@
 <?php
 /*
-    Version: 1.0
+    Version: 1.1
     Author: HKLCF
     Copyright: HKLCF
     Last Modified: 06/05/2018
 */
 
-$url = htmlspecialchars($_GET['url']);
+$url = isset($_GET['url']) ? htmlspecialchars($_GET['url']) : null;
 $support_domain = 'www.mediafire.com';
 
 if(empty($url)) {
