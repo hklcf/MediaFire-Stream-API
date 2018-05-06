@@ -16,7 +16,7 @@ if($url) {
   preg_match('@^(?:http?://)?([^/]+)@i', $url, $matches);
   $host = $matches[1];
   if($host != $support_domain) {
-    echo 'Please input a valid google drive url.';
+    echo 'Please input a valid mediafire url.';
     exit;
   }
 }
