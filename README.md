@@ -5,3 +5,8 @@ Grab MediaFire stream link
 `http://<yourserver.com>/mediafire.php?url=<MediaFire File Link>`
 
 https://demo.com/mediafire.php?url=http://www.mediafire.com/file/8x5ol3r8wpb477a/small.mp4
+
+
+`http://<yourserver.com>/embed.php?url=<MediaFire File Link>`
+
+https://demo.com/embed.php?url=http://www.mediafire.com/file/8x5ol3r8wpb477a/small.mp4
