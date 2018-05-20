@@ -1,6 +1,6 @@
 <?php
 /*
-    Version: 1.1
+    Version: 1.2
     Author: HKLCF
     Copyright: HKLCF
     Last Modified: 19/05/2018
