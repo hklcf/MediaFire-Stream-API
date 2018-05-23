@@ -1,4 +1,10 @@
 # MediaFire-Stream-API
+[![GitHub issues](https://img.shields.io/github/issues/hklcf/MediaFire-Stream-API.svg)](https://github.com/hklcf/MediaFire-Stream-API/issues)
+[![GitHub forks](https://img.shields.io/github/forks/hklcf/MediaFire-Stream-API.svg)](https://github.com/hklcf/MediaFire-Stream-API/network)
+[![GitHub stars](https://img.shields.io/github/stars/hklcf/MediaFire-Stream-API.svg)](https://github.com/hklcf/MediaFire-Stream-API/stargazers)
+[![GitHub license](https://img.shields.io/github/license/hklcf/MediaFire-Stream-API.svg)](https://github.com/hklcf/MediaFire-Stream-API/blob/master/LICENSE)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/hklcf/MediaFire-Stream-API.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fhklcf%2FMediaFire-Stream-API)
+
 Grab MediaFire stream link
 
 ## Getting Started
