@@ -1,9 +1,9 @@
 <?php
 /*
-    Version: 1.2.0
+    Version: 1.2.1
     Author: HKLCF
     Copyright: HKLCF
-    Last Modified: 23/05/2018
+    Last Modified: 22/09/2018
 */
 
 $url = isset($_GET['url']) ? htmlspecialchars($_GET['url']) : null;
@@ -23,7 +23,7 @@ if($url) {
 
 $result = file_get_contents($url, false, stream_context_create(['socket' => ['bindto' => '0:0']])); // force IPv4
 
-preg_match('/kNO = "(.*)"/', $result, $matches);
+preg_match('/<a href=\'(.*)\' onclick=\'DLP_mOnDownload\(this\); return true;\'>/', $result, $matches);
 $result = urldecode($matches[1]);
 
 $output = [];
