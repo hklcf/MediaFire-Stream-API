@@ -20,12 +20,12 @@ Put all files into the Public/htdocs directory.
 ### Json API
 `http://<yourserver.com>/mediafire.php?url=<MediaFire File Link>`
 
-Live Demo: http://hklcf.rf.gd/mediafire/mediafire.php?url=http://www.mediafire.com/file/zfs42v813z1anbt/small.mp4
+Live Demo: http://gfg54173.rf.gd/mediafire/mediafire.php?url=http://www.mediafire.com/file/zfs42v813z1anbt/small.mp4
 
 ### Embed API
 `http://<yourserver.com>/embed.php?url=<MediaFire File Link>`
 
-Live Demo: http://hklcf.rf.gd/mediafire/embed.php?url=http://www.mediafire.com/file/zfs42v813z1anbt/small.mp4
+Live Demo: http://gfg54173.rf.gd/mediafire/embed.php?url=http://www.mediafire.com/file/zfs42v813z1anbt/small.mp4
 
 ## Contributing
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
