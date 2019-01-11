@@ -23,7 +23,7 @@ if($url) {
 
 $result = file_get_contents($url, false, stream_context_create(['socket' => ['bindto' => '0:0']])); // force IPv4
 
-preg_match('/<a href=\'(.*)\' onclick=\'DLP_mOnDownload\(this\); return true;\'>/', $result, $matches);
+preg_match('/aria-label="Download file"\n.+href="(.*)"/', $result, $matches);
 $result = urldecode($matches[1]);
 
 $output = [];
