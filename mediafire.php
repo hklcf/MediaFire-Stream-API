@@ -1,9 +1,9 @@
 <?php
 /*
-    Version: 1.2.1
+    Version: 1.2.2
     Author: HKLCF
     Copyright: HKLCF
-    Last Modified: 22/09/2018
+    Last Modified: 11/01/2019
 */
 
 $url = isset($_GET['url']) ? htmlspecialchars($_GET['url']) : null;
